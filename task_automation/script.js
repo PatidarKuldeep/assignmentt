@@ -10,19 +10,19 @@ document.getElementById("taskForm").addEventListener("submit", function(event) {
     var paragraph1 = document.createElement("p");
     paragraph1.textContent = input1;
     paragraph1.classList.add("result");
-    paragraph1.style.color = getRandomColor(); // Apply random color
+    paragraph1.style.color = getRandomColor(); 
     resultsDiv.appendChild(paragraph1);
 
     var paragraph2 = document.createElement("p");
     paragraph2.textContent = input2;
     paragraph2.classList.add("result");
-    paragraph2.style.color = getRandomColor(); // Apply random color
+    paragraph2.style.color = getRandomColor();
     resultsDiv.appendChild(paragraph2);
 
     var paragraph3 = document.createElement("p");
     paragraph3.textContent = input3;
     paragraph3.classList.add("result");
-    paragraph3.style.color = getRandomColor(); // Apply random color
+    paragraph3.style.color = getRandomColor(); 
     resultsDiv.appendChild(paragraph3);
 });
 
